@@ -1,0 +1,250 @@
+ * {
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+ }
+ .navbar{
+    height: 60px ;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    justify-content: space-evenly;
+ }
+ .nav_logo{
+    height: 50px; 
+    width: 100px;
+ }
+ .logo{
+  background-image: url("Screenshot\ 2025-07-29\ 155256.png");
+   background-color: white;
+    height: 50px;
+    width: 100%;
+    background-size: cover;
+ }
+ .border{
+    border: 2px solid transparent;
+ }
+ .border  :hover{
+    border: 2px solid white ;
+ }
+ /*  box2 stylimng*/
+ .adreesfirst{
+   color:#cccccc ;
+   font-size: 0.85rem;
+   margin-left: 18px;
+
+ }
+ .adrees_second{
+   font-size: 1rem;
+   margin-left: 3px;
+
+ }
+ .add_icon{
+   display: inline-flex;
+ }
+ /* box3 */
+ .nav_search{
+   display: flex;
+   justify-content: space-evenly;
+   background-color: pink;
+   width: 620px;
+   height: 40px;
+   border-radius: 4px;
+ }
+ .search-select{
+   background-color: #f3f3f3;
+   width:50px;
+   text-align: center;
+   border-top-left-radius: 4px;
+   border-bottom-left-radius: 4px;
+   border: none;
+
+ }
+ .search_input{
+   width: 100%;
+   font-size: 1rem;
+   border:none;
+ }
+ .search_icon{
+   width: 45px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 1.2rem;
+   background-color:#febd68;
+   border-top-right-radius: 4px;
+   border-bottom-right-radius: 4px;
+   color: #0f1111;  
+ }
+ .nav_search:hover{
+   border: 2px solid orange;
+
+ }
+ /** box 4 **/
+ span{
+   font-size: 0.7rem;
+ }
+ .nav_second{
+   font-size: 0.85rem;
+   font-weight: 700;
+ }
+ /**  box5 **/
+ .nav_cart i{
+   font-size: 30px;
+ }
+ .nav_cart{
+   font: size 0.85rem;
+   font-weight: 700px;
+ }
+ /** panel **/
+ .panel{
+   height: 40px;
+   background-color: #222f3d;
+   display: flex;
+   color: white;
+   align-items: center;
+   justify-content: space-evenly;
+ }
+ .panel_ops p{
+   display: inline;
+   margin-left: 15px;
+ }
+ .panel_ops{
+   width: 70%;
+   font-size: 0.85rem;
+ }
+ .panel_deals{
+   font-size: 0.9rem;
+   font-weight: 700;
+ }
+ .hero-section {
+  background-image: url('https://m.media-amazon.com/images/I/71nwqPZaNRL._SX3000_.jpg'); /* hero banner */
+  background-size: cover;
+  background-position: center;
+  height: 850px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  margin-bottom: 20px;
+}
+
+.hero-message {
+  background-color: white;
+  color: black;
+  text-align: center;
+  padding: 15px;
+  width: 90%;
+  margin-bottom: 25px;
+  font-size: 14px;
+  border-radius: 4px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+
+.hero-message a {
+  color: #007185;
+  text-decoration: none;
+}
+
+.hero-message a:hover {
+  text-decoration: underline;
+}
+/** shop section **/
+.shop-section{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  background-color: #e2e7e6;
+}
+.box{
+  height:400px ;
+  /* border: 2px solid black; */
+  width: 23%;
+  padding: 20px 0px 15px;
+  background-color: white;
+  margin-top: 15px;
+  
+}
+.box-image{
+  height: 300px; 
+  background-size: cover;
+  margin-top: 1rem;
+  margin-bottom: 1rem; 
+}
+.box-content{
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+.box-content p{
+  color: #007185;
+}
+/** footer **/
+footer{
+  margin-top: 15px;
+}
+.footpanel1{
+  background-color:#37475a ;
+  color: white;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.85rem;
+
+}
+.footpanel2{
+  background-color:#222f3d ;
+  color: white;
+  height: 500px;
+  display: flex;
+  justify-content: space-evenly;
+}
+ul{
+  margin-top: 20px;
+}
+ul a{
+  display: block;
+  font-size: 0.85rem;
+  margin-top: 10px;
+  color: #dddddd;
+
+}
+.foot-panel3{
+  background-color: #222f3d;
+  color: white;
+  border-top: 0.5px solid white;
+  height: 70px;
+   display: flex;
+  justify-content: center;
+
+}
+.logo{
+  background-image: url("Screenshot\ 2025-07-29\ 155256.png");
+  background-size: cover;
+  height: 50px;
+  width: 100px;
+  padding-top: 5px;
+ 
+
+}
+.foot-panel4{
+  background-color: #0f1111;
+  color: white;
+  height: 80px;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+.pages{
+  font-size: 0.7rem;
+  text-align: center;
+  padding-top: 25px;
+
+}
+.copywright{
+  font-size: 0.7rem;
+  text-align: center;
+  padding-top: 5px;
+}
